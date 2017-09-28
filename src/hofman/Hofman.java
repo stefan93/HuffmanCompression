@@ -34,7 +34,7 @@ public class Hofman {
         FileOutputStream fos = null;
         try {
             // TODO code application logic here
-            Tree t = new Tree("Stefan Pantic pravi hofmanovo stablo");
+            Tree t = new Tree("Primer hofmanovog stabla");
             BitSet compBin = t.compress();
             fos = new FileOutputStream("compressedData");
             fos.write(compBin.toByteArray());
